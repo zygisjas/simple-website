@@ -1,0 +1,100 @@
+/* CSS */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("/images/bg.jpg");
+
+
+}
+header{
+	background-color:#eaf2ff;
+	padding: 1px;
+}
+h2{
+
+	font-family: tahoma;
+	color:black;
+	margin: 15px 0px 0px 15px;
+	
+}
+.ah{
+	font-family:tahoma;
+	font-weight: bold;
+	color:#008796;
+	text-align: right;
+	margin: 0px 15px 0px 0px;
+	
+	
+	
+}
+.orange{
+	color:#ff5a19;
+	display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   	overflow: hidden;
+    background-color: #00a3bc;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+    display: block;
+    font-family: tahoma;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #13717f;
+    color:#ff5a19;
+
+}
+a{
+	text-decoration: none;
+}
+article{
+	background-color: white;
+	font-family: tahoma;
+	margin: 30px 150px 30px 150px;
+	border-color: #138da0;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+}
+.contentimg{
+ 	display: block;
+    margin: auto;
+    width: 15%;
+}
+.contentimg2{
+ 	display: block;
+    margin: auto;
+    width: 29%;
+}
+.content{
+	margin: 50px;
+}
+footer{
+	background-color:#eaf2ff;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	font-family: tahoma;
+	
+
+
+
+}
