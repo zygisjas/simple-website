@@ -49,13 +49,19 @@ li {
 li a {
 
     display: block;
-    font-family: tahoma;
+    border-radius: 14px 14px 0 0;
+    font-family: Tahoma;
     color: white;
+   text-shadow: 2px 2px 5px #000000;
     text-align: center;
     padding: 5px 8px;
     text-decoration: none;
+    background: linear-gradient(#004071, #41ADFF);
+    color:#41ADFF;
 }
-
+li.rotated{
+	transform: rotate(-15deg);
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #13717f;
